@@ -1,8 +1,7 @@
-n = 3
-for i in range(n):
-    for j in range(n*2):
-        if i in (0, n - 1) or j in (0, n*2 - 1):
-            print('o', end='')
-        else:
-            print(' ', end='')
-    print()
+a = 3
+
+def f():
+    a = a + 1
+    print(a)
+
+f()
